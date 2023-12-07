@@ -28,8 +28,8 @@ func Day2Part1Solver() string {
 		if game.maxRed <= bagRedAmount &&
 			game.maxGreen <= bagGreenAmount &&
 			game.maxBlue <= bagBlueAmount {
-			fmt.Println("This game is possible: ", game)
 			idSum += game.id
+			fmt.Println("This game is possible: ", game)
 		}
 	}
 
