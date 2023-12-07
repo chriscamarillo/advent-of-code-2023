@@ -2,15 +2,17 @@ package main
 
 import (
 	"fmt"
-	day1 "github.com/chriscamarillo/advent-of-code-2023/solvers"
+	days "github.com/chriscamarillo/advent-of-code-2023/solvers"
 	"github.com/spf13/cobra"
 )
 
 type Solver func() string
 
 var Solvers = map[string]Solver{
-	"day1part1": day1.Part1Solver,
-	"day1part2": day1.Part2Solver,
+	"day1part1": days.Day1Part1Solver,
+	"day1part2": days.Day1Part2Solver,
+	"day2part1": days.Day2Part1Solver,
+	"day2part2": days.Day2Part2Solver,
 }
 
 func main() {

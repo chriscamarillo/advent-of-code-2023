@@ -1,4 +1,4 @@
-package day1
+package days
 
 import (
 	"fmt"
@@ -20,14 +20,14 @@ var digitStringRuneMap = map[string]rune{
 	"nine":  '9',
 }
 
-func Part1Solver() string {
+func Day1Part1Solver() string {
 	input := utils.FetchAOCInput(1)
 	answer := solve(input, false)
 
 	return answer
 }
 
-func Part2Solver() string {
+func Day1Part2Solver() string {
 	input := utils.FetchAOCInput(1)
 	answer := solve(input, true)
 
