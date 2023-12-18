@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	days "github.com/chriscamarillo/advent-of-code-2023/solvers"
 	"github.com/spf13/cobra"
 )
@@ -13,6 +14,8 @@ var Solvers = map[string]Solver{
 	"day1part2": days.Day1Part2Solver,
 	"day2part1": days.Day2Part1Solver,
 	"day2part2": days.Day2Part2Solver,
+	"day3part1": days.Day3Part1Solver,
+	"day3part2": days.Day3Part2Solver,
 }
 
 func main() {
